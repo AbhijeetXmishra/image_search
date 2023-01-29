@@ -1,0 +1,57 @@
+
+
+/* -------------------NavBar-------------------- */
+
+.container-fluid a{
+    font-weight: 900;
+    font-size: 30px;
+    color: whitesmoke;
+    text-shadow: 5px 5px 2px rgb(138, 130, 132);
+    cursor: pointer;
+}
+
+.container-fluid img
+{
+    height: 50px;
+    
+}
+
+@media (max-width: 300px)
+{
+  .container-fluid a{
+    font-weight: 900;
+    font-size: 21px;
+    color: whitesmoke;
+    text-shadow: 5px 5px 2px rgb(138, 130, 132);
+    cursor: pointer;
+}
+
+.container-fluid img
+{
+    height: 30px;
+    
+}
+.form-control
+{
+  height: 30px;
+}
+.btn
+{
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  font-size: 10px;
+}
+}
+
+/* ===============DefaultImage================ */
+
+.dfltImage
+{
+    display:flex;
+    flex-wrap: wrap;
+    padding:3rem 75px;
+    column-gap: 5px;
+    justify-content: space-between;
+    row-gap:50px;
+}

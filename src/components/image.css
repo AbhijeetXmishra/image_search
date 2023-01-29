@@ -1,0 +1,49 @@
+.imgBox
+{
+    object-fit: cover;
+}
+
+.imgBox img{
+    border:2px solid rgb(253, 253, 253);
+    border-radius:5px;
+  height:350px;
+  width:350px;
+  transition: 0.5s ease;
+}
+
+.imgBox img:hover{
+    transform: scale(1.05);
+    transition: 1s ease;
+    border:2px solid rgb(6, 6, 5);
+    
+    cursor: pointer;
+  
+  }
+  
+ 
+  @media (max-width: 900px)
+  {
+    .dfltImage
+    {
+      display:flex;
+      flex-wrap: wrap;
+      padding:2rem 0.1em;
+      column-gap: 40px;
+      justify-content: center;
+      row-gap:10px;
+    }
+    .imgBox img
+    {
+        height:80px;
+        width:80px;
+    }
+    .imgBox img:hover{
+    transform: scale(1.05);
+    transition: 1s ease;
+    border:2px solid rgb(6, 6, 5);
+    /* border-radius: 90px; */
+    cursor: pointer;
+    height:150px;
+    width:150px;
+  }
+  }
